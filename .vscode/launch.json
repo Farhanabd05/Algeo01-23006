@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Algeo01-23006_b06cb483",
+            "vmArgs": "--module-path \"C:\\Users\\DELL\\Documents\\1. IF ITB\\ALGEO\\TUBES\\javafx-sdk-23\\lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "test_f",
+            "request": "launch",
+            "mainClass": "main.test_f",
+            "projectName": "Algeo01-23006_b06cb483"
+        },
+        {
+            "type": "java",
+            "name": "test_w",
+            "request": "launch",
+            "mainClass": "main.test_w",
+            "projectName": "Algeo01-23006_b06cb483"
+        }
+    ]
+}
