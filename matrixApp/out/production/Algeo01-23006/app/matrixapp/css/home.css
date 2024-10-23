@@ -13,11 +13,13 @@
     -fx-background-radius:10;
 }
 .title{
+    -fx-text-fill: #FCFCFC;
     -fx-font-size:5em;
     -fx-font-family:"monospace";
 }
 .subtitle{
-    -fx-font-size:4em;
+    -fx-text-fill: #C0C0C0;
+    -fx-font-size:3em;
     -fx-font-family:"monospace";
 }
 .options_box_tl{
@@ -35,4 +37,9 @@
 .options_box_br{
     -fx-background-color: #E6D47B;
     -fx-background-radius:30;
+}
+.header_box{
+  -fx-background-image: url("../images/resized_fuuka.png");
+  -fx-background-repeat : no-repeat;
+  -fx-background-position : 30px;
 }

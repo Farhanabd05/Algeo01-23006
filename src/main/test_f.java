@@ -31,11 +31,14 @@ public class test_f {
         System.out.println("Masukkan elemen matriks ke-2: ");
         matrix2.readMatrix(scanner);
 
+        matrix2.toReducedRowEchelonForm();
+        System.out.println("Matriks setelah diubah menjadi bentuk eselon baris tereduksi: ");
+        matrix2.displayMatrix();
         LinearSystem ls2 = new LinearSystem(matrix2);
         ls2.solveAndPrintSolutionType("Gauss-Jordan");
-
-        double det = matrix2.determinantRedRow();
-        System.out.println("det:" + det);
+//        matrix2.displayMatrix()
+//        double det = matrix2.determinantRedRow();
+//        System.out.println("det:" + det);
         // // System.out.println("Masukkan elemen matriks ke-3: ");
         // // m3.readMatrix(scanner);
 
